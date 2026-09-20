@@ -22,17 +22,12 @@ export const Logo = () => {
       <stop offset="1" stopColor="#0E8F6E"/>
     </linearGradient>
   </defs>
-
-    <!-- bracket frame, open where the plane exits (top-right) -->
     <path d="M8 40 V8 H52" fill="none" stroke="url(#xp-g)" strokeWidth="6" strokeLinecap="square"/>
     <path d="M8 80 V112 H96" fill="none" stroke="url(#xp-g)" strokeWidth="6" strokeLinecap="square"/>
-    <!-- the X: full backslash arm + lower-left half of the slash arm -->
     <path d="M24 28 L88 92" fill="none" stroke="url(#xp-g)" strokeWidth="10" strokeLinecap="square"/>
     <path d="M24 92 L54 62" fill="none" stroke="url(#xp-g)" strokeWidth="10" strokeLinecap="square"/>
-    <!-- upper-right arm becomes the paper plane leaving the frame -->
     <path d="M110 12 L56 46 L74 56 L82 76 Z" fill="url(#xp-g)"/>
     <path d="M74 56 L110 12" fill="none" stroke="#ffffff" strokeWidth="2.5" opacity="0.9"/>
-
     </svg>
   );
 };
