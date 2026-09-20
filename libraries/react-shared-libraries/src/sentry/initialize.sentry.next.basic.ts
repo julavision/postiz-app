@@ -35,7 +35,7 @@ export const initializeSentryBasic = (environment: string, dsn: string, extensio
         },
         contexts: {
           app: {
-            name: 'Postiz Frontend',
+            name: 'Xperience Post Frontend',
             version: process.env.NEXT_PUBLIC_APP_VERSION || '0.0.0',
           },
         },
