@@ -3,7 +3,6 @@ import { getT } from '@gitroom/react/translation/get.translation.service.backend
 export const dynamic = 'force-dynamic';
 import { ReactNode } from 'react';
 import loadDynamic from 'next/dynamic';
-import { TestimonialComponent } from '@gitroom/frontend/components/auth/testimonial.component';
 import { LogoTextComponent } from '@gitroom/frontend/components/ui/logo-text.component';
 import { MantineWrapper } from '@gitroom/react/helpers/mantine.wrapper';
 import { Toaster } from '@gitroom/react/toaster/toaster';
@@ -33,7 +32,9 @@ export default async function AuthLayout({
             <br />
             <span className="text-[42px] text-[#4A8BC8]">Deliver it everywhere.</span>
           </div>
-          <TestimonialComponent />
+          <div className="mt-[24px] text-[18px] text-[#9a9aa6] text-center max-w-[420px]">
+            Facebook, Instagram, LinkedIn, X, YouTube and TikTok from one calendar — built by Xperience Levels.
+          </div>
         </div>
       </div>
     </MantineWrapper>
